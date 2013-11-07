@@ -1,0 +1,5 @@
+This simple python file will take the name of a FLAC encoded file at 16000Hz, upload it to Google's Speech API servers and print the return transcription.
+
+This uses the API built into chrome, and thus there's no way of knowing when it will stop working. It does work as of November 2013.
+
+It is released to the Public Domain.
