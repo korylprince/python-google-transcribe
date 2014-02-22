@@ -20,5 +20,6 @@ except urllib2.URLError:
     print "Error Transcribing Voicemail"
     sys.exit(1)
 
-text = json.loads(ret.read())['hypotheses'][0]['utterance']
+resp = ret.read()
+text = json.loads(resp)['hypotheses'][0]['utterance']
 print text
